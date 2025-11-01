@@ -2,6 +2,8 @@ name: 01-my-first-workflow
 
 on:
   push:
+    branches:
+      - 'only4watch*'
   workflow_dispatch:
 
 jobs:
