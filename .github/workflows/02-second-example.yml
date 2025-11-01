@@ -1,6 +1,9 @@
 name: 02-my-second-workflow
 
-on: push
+on: 
+  push
+    branches:
+      - 'main'
 
 jobs:
     second_job:
